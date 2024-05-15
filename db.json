@@ -1,36 +1,38 @@
 {
-    "models" : [{
-        "id" : "m1",
-        "results" : [{
-            "id" : "static_analysis",
-            "by_member" : [{
-                "case" : "LC1",
-                "members" : [{
-                    "id" : "1",
-                    "1" : { 
-                                "0.2" : { 
-                                    "n" : 1000,
-                                    "sig_x" : 50
-                                },
-                                "0.4" : {
-                                    "n" : 500,
-                                    "sig_x" : 30
-                                }                                
-                            },
-                            "2" : { 
-                                "0.0" : { 
-                                    "n" : 100,
-                                    "sig_x" : 10
-                                },
-                                "1.0": { 
-                                    "n" : 50,
-                                    "sig_x" : 70
-                                }                                
-                            }
+    "models": [
+      {
+        "modelName": "m1",
+        "results": [
+          {
+            "analysisType": "static_analysis",
+            "by_member": [
+              {
+                "case": "LC1",
+                "members": [
+                  {
+                    "id": "1",
+                    "locations": [
+                      {
+                        "location": "0.2",
+                        "values": {
+                          "n": 1000,
+                          "sig_x": 50
                         }
-                    }
-                }                
-            }
-        }
-    }
-}
+                      },
+                      {
+                        "location": "0.5",
+                        "values": {
+                          "n": 500,
+                          "sig_x": 30
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
