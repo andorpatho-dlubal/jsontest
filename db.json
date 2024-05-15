@@ -1,6 +1,6 @@
 {
     "models" : {
-        "model 1" : {
+        "m1" : {
             "results" : { 
                 "static_analysis" : {
                     "by_member" : {
