@@ -1,7 +1,6 @@
 {
     "models" : {
         "model 1" : {
-            "data" : { },
             "results" : { 
                 "static_analysis" : {
                     "by_member" : {
