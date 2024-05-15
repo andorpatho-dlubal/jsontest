@@ -1,38 +1,38 @@
 {
-    "models": [
-      {
-        "modelName": "m1",
-        "results": [
-          {
-            "analysisType": "static_analysis",
-            "by_member": [
-              {
-                "case": "LC1",
-                "members": [
-                  {
-                    "id": "1",
-                    "locations": [
-                      {
-                        "location": "0.2",
-                        "values": {
-                          "n": 1000,
-                          "sig_x": 50
-                        }
-                      },
-                      {
-                        "location": "0.5",
-                        "values": {
-                          "n": 500,
-                          "sig_x": 30
-                        }
+  "models": [
+    {
+      "modelName": "m1",
+      "results": [
+        {
+          "analysisType": "static_analysis",
+          "by_member": [
+            {
+              "case": "LC1",
+              "members": [
+                {
+                  "id": "1",
+                  "locations": [
+                    {
+                      "location": "0.2",
+                      "values": {
+                        "n": 1000,
+                        "sig_x": 50
                       }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+                    },
+                    {
+                      "location": "0.5",
+                      "values": {
+                        "n": 500,
+                        "sig_x": 30
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
